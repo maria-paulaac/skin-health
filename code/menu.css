@@ -1,0 +1,48 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --very-light-pink: #c7c7c7;
+  --very-light-blue: #aed6f1;
+  --text-input-field: #f7f7f7;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+.desktop-menu {
+  width: 100px;
+  height: auto;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 6px;
+  padding: 20px 20px 20px 20px;
+}
+.desktop-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: end;
+}
+/* .desktop-menu ul li {
+  text-align: end;
+} */
+.desktop-menu ul li a {
+  color: var(--black);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block; /* Para poderle poner un margin botton se debe poner el display inline-block ya que inline no deja poner la margen */
+  font-weight: bold;
+}
+.desktop-menu ul li:last-child {
+  padding-top: 20px;
+  border-top: 1px solid var(--very-light-pink);
+}
+.desktop-menu ul li:last-child a {
+  color: var(--very-light-blue);
+  font-size: var(--sm);
+  margin-bottom: 0;
+  font-weight: normal;
+}
